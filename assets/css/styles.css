@@ -1,0 +1,221 @@
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+* {box-sizing: border-box}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: Black;
+  text-decoration: none;
+  font-family: Kelly Slab;
+  font-size: 40px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: rgb(177, 190, 219);
+}
+.navbar1 a {
+    float: left;
+    padding: 12px;
+    color: Black;
+    text-decoration: none;
+    font-family: Kelly Slab;
+    font-size: 40px;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+  }
+.texto-principal{
+    background:  rgba(238, 234, 234, 0.8);
+    height: 80px;
+    width: 1425px;
+    padding: 0 50px;
+}
+.link1{
+  text-align: center;
+  font-size: 35px;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+header{
+    background: url(./school.png);
+    padding: 10px;
+    align-items: center;
+    background-color: #6292AF;
+    font-family: "Akronim";
+    display:grid;
+    grid-template-columns:350px auto;
+    grid-template-rows: 180px;
+  }
+
+  div.footer1 {
+    font-family: Yeon Sung;
+    grid-column: 6;
+    margin-right: -100px;
+    grid-row: 3/4;
+  }
+  .name{
+    font-family: Yeon Sung;
+    grid-column: 1/6;
+    grid-row: 3/4;
+    color: rgb(112, 5, 173);
+  }
+  footer {
+    display: grid;
+    background-color:  #FFF1B5 ;
+    border: 5px solid  #0066FF ;
+  }
+  .social{
+    grid-column: 5;
+    margin-right: -100px;
+    grid-row: 2/4;
+  }
+  .social img {
+    border: 5px solid  rgb(176, 217, 245); 
+  }
+  .name{
+    grid-column: 1/6;
+    grid-row: 3/4;
+    margin-left: 600px;
+  }
+  .copy{
+    color: blue;
+  }
+@media all and (max-width: 1200px){
+  .navbar {
+    width: 100%;
+    overflow: auto;
+  }
+  * {box-sizing: border-box}
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: Black;
+    text-decoration: none;
+    font-family: Kelly Slab;
+    font-size: 40px;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+  }
+  .navbar a:hover {
+    background-color: rgb(177, 190, 219);
+  }
+  .navbar1 a {
+      float: left;
+      padding: 12px;
+      color: Black;
+      text-decoration: none;
+      font-family: Kelly Slab;
+      font-size: 40px;
+      width: 25%; /* Four links of equal widths */
+      text-align: center;
+    }
+  .texto-principal{
+      background:  rgba(238, 234, 234, 0.8);
+      height: 80px;
+      width: 1425px;
+      padding: 0 50px;
+  }
+  .link1{
+    text-align: center;
+    font-size: 35px;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      flex-direction: column;
+    }
+  }
+  header{
+    flex-direction: column;
+    }
+  
+    div.footer1 {
+      flex-direction: column;
+    }
+    .name{
+      flex-direction: column;
+    }
+    footer {
+      flex-direction: column;
+    }
+    .social{
+      flex-direction: column;
+    }
+    .social img {
+      flex-direction: column;
+    }
+    .name{
+      flex-direction: column;
+    }
+    .copy{
+      flex-direction: column;
+    }	
+  }
+@media all and (max-width: 650px){
+  .navbar a {
+    flex-direction: column;
+  }
+}
+header{
+  flex-direction: column;
+  }
+
+  div.footer1 {
+    flex-direction: column;
+  }
+  .name{
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .social{
+    flex-direction: column;
+  }
+  .social img {
+    flex-direction: column;
+  }
+  .name{
+    flex-direction: column;
+  }
+  .copy{
+    flex-direction: column;
+  }	
+@media all and (max-width: 400px){
+  .navbar a {
+    flex-direction: column;
+  }
+}
+header{
+  flex-direction: column;
+  }
+
+  div.footer1 {
+    flex-direction: column;
+  }
+  .name{
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .social{
+    flex-direction: column;
+  }
+  .social img {
+    flex-direction: column;
+  }
+  .name{
+    flex-direction: column;
+  }
+  .copy{
+    flex-direction: column;
+  }	

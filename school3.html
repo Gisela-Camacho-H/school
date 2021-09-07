@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interarts</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Indie+Flower&family=Kelly+Slab&family=Nanum+Pen+Script&family=Reenie+Beanie&family=Rock+Salt&family=Yeon+Sung&display=swap" rel="stylesheet">
+     <style>
+h2{
+    text-align: center;
+    font-family: Yeon Sung;
+    font-size: 50px;
+}
+body {
+    background-color: white;
+    font-family: "Indie Flower";
+    font-size: 22px;
+}
+.w3-sidebar{
+    background: darkblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Indie flower;
+}
+.wrapper{
+    display:flex;
+    position: relative;
+}
+.wrapper .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #6b9cf7;
+    padding:30px 0;
+}
+.wrapper .sidebar h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+}
+.wrapper .sidebar ul li a{
+    color: #bdb8d7;
+    display:block;
+}
+.wrapper .sidebar ul li a .fas{
+    width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+    background: #a3d8f5;
+}
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+}
+.contenedor{
+    width: 80%;
+    height: 300px;
+    background: rgb(247, 29, 58);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    margin-left: 250px;
+}
+.child{
+        background: rgb(241, 218, 142);
+        width: 400px;
+        height: 250px;
+        color: rgb(10, 10, 10);
+        margin: 30px;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        flex-grow: 1 1 auto;
+    }
+    .contenedor1{
+    width: 80%;
+    height: 300px;
+    background: rgb(241, 218, 142);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    margin-left: 250px;
+}
+.child1{
+        background: rgb(247, 29, 58);
+        width: 400px;
+        height: 250px;
+        color: rgb(10, 10, 10);
+        margin: 30px;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        flex-grow: 1 1 auto;
+    }
+.img1 img{
+    margin-left: 700px;
+}
+@media all and (max-width: 1200px){
+    h2{
+        flex-direction: column;
+}
+body {
+    flex-direction: column;
+}
+.w3-sidebar{
+    flex-direction: column;
+}
+*{
+    flex-direction: column;
+}
+.wrapper{
+    flex-direction: column;
+}
+.wrapper .sidebar{
+    flex-direction: column;
+}
+.wrapper .sidebar h2{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li a{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li a .fas{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li:hover{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li:hover a{
+    flex-direction: column;
+}
+.contenedor{
+    flex-direction: column;
+}
+.child{
+    flex-direction: column;;
+    }
+    .contenedor1{
+        flex-direction: column;
+}
+.child1{
+    flex-direction: column;
+    }
+.img1 img{
+    flex-direction: column; 
+}	
+		}
+@media all and (max-width: 650px){
+    h2{
+        flex-direction: column;
+}
+body {
+    flex-direction: column;
+}
+.w3-sidebar{
+    flex-direction: column;
+}
+*{
+    flex-direction: column;
+}
+.wrapper{
+    flex-direction: column;
+}
+.wrapper .sidebar{
+    flex-direction: column;
+}
+.wrapper .sidebar h2{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li a{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li a .fas{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li:hover{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li:hover a{
+    flex-direction: column;
+}
+.contenedor{
+    flex-direction: column;
+}
+.child{
+    flex-direction: column;;
+    }
+    .contenedor1{
+        flex-direction: column;
+}
+.child1{
+    flex-direction: column;
+    }
+.img1 img{
+    flex-direction: column; 
+}	
+	
+		}
+@media all and (max-width: 400px){
+    h2{
+        flex-direction: column;
+}
+body {
+    flex-direction: column;
+}
+.w3-sidebar{
+    flex-direction: column;
+}
+*{
+    flex-direction: column;
+}
+.wrapper{
+    flex-direction: column;
+}
+.wrapper .sidebar{
+    flex-direction: column;
+}
+.wrapper .sidebar h2{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li a{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li a .fas{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li:hover{
+    flex-direction: column;
+}
+.wrapper .sidebar ul li:hover a{
+    flex-direction: column;
+}
+.contenedor{
+    flex-direction: column;
+}
+.child{
+    flex-direction: column;;
+    }
+    .contenedor1{
+        flex-direction: column;
+}
+.child1{
+    flex-direction: column;
+    }
+.img1 img{
+    flex-direction: column; 
+}	
+	
+		}
+</style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-box"><a href="https://www.designevo.com/logo-maker/">
+            <img src="assets/images/university_logo.png" width="180" height="180" alt="Logo image"></a></div>      
+                <div class="navbar1">
+                <a href="index.html"><img src="assets/images/home.png" width="50" height="50"></a>
+                <a href="school.html"><img src="assets/images/school2.png" width="70" height="50"></a>
+                <a href="school2.html"><img src="assets/images/sport.png" width="40" height="60"></a>
+                <a href="school3.html"><img src="assets/images/arts.png" width="70" height="50"></a></div>
+        <div class="texto-principal">
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="school.html">Academics</a>
+                <a href="school2.html">Athletics</a>
+                <a href="school3.html">Arts</a></div>
+        </div>
+    </header> 
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">profile</a></li>
+                <li><a href="">about us</a></li>
+                <li><a href="">portafolios</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="">map</a></li>
+            </ul>
+        </div>
+
+
+            </ul>
+        </div>
+
+    </div>
+    <h2>Arts</h2>
+    <div class="contenedor">
+        <div class="child">
+            <img src="assets/images/arts2.png" alt="arts1" width="270px" height="200px"></a>
+        </div>
+        <div class="child">
+            <img src="assets/images/arts1.png" alt="arts2" width="270px" height="200px"></a>
+        </div>
+        <div class="child">
+            <img src="assets/images/arts3.png" alt="arts3" width="270px" height="200px"></a>
+        </div>
+    </div>
+    <div class="img1">
+    <img src="assets/images/school4.png" alt="school" width="250px" height="200px"></div>
+    <div class="contenedor1">
+        <div class="child1">
+            <img src="assets/images/arts4.png" alt="arts1" width="270px" height="200px"></a>
+        </div>
+        <div class="child1">
+            <img src="assets/images/arts5.png" alt="arts2" width="270px" height="200px"></a>
+        </div>
+        <div class="child1">
+            <img src="assets/images/arts6.png" alt="arts3" width="270px" height="200px"></a>
+        </div>
+    </div>
+<footer>   
+    <div class = "social">
+        <a href="https://www.youtube.com/">
+            <img src="assets/images/youtube.png" alt="Youtube icon" width="70px" height="70px"></a>
+        <a href="https://www.instagram.com/">
+            <img src="assets/images/insta.png" alt="Instagram icon" width="70px" height="70px"></a>
+        <a href="https://www.facebook.com/">
+            <img src="assets/images/face.png" alt="Facebook icon" width="70px" height="70px"></a>
+    </div>
+    <div class = "name">
+    <p class="copy">&copy; 2020 Inter Cultural - Gisela Camaho</p> 
+    </div>
+</footer>
+</body>
+</html>
